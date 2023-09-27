@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aadyasystemsllc.spark.CarouselLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+android:gravity="center"    >
+
+    <TextView
+        android:id="@+id/txtparking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_blue"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/pagerImg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_400sdp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/parkingimage"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_blue"
+        android:textSize="@dimen/_10sdp"
+        android:singleLine="false"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/mobilenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"
+        android:gravity="center"
+        android:text="00000000000"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/viewinmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="View in Google Maps"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_2sdp"/>
+    <TextView
+        android:id="@+id/book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/verify_background_shape"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_12sdp"
+        android:text="Book"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp"
+        android:paddingLeft="@dimen/_20sdp"
+        android:paddingRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_5sdp"/>
+
+</com.aadyasystemsllc.spark.CarouselLinearLayout>

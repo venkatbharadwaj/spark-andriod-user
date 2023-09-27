@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar_lay_out" />
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp"
+       android:visibility="gone"
+        android:background="@color/dark_blue"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_90sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            android:textSize="@dimen/_15sdp"
+       />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:hint="Email Id"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/_15sdp"
+       />
+
+        <EditText
+            android:id="@+id/edtMobilenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:focusable="true"
+            android:inputType="phone"
+            android:textSize="@dimen/_15sdp"
+            android:hint="Mobile Number"
+         />
+
+        <EditText
+            android:id="@+id/edtAlternateMobilenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:focusable="true"
+            android:hint="Emergency number"
+            android:inputType="phone"
+            android:textSize="@dimen/_15sdp"
+
+            android:maxLength="10"
+            android:visibility="gone"/>
+
+   <!--     <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="@dimen/_15sdp"
+            app:font_type="regular" />-->
+
+
+      <!--  <TextView
+            android:id="@+id/txtSendcodeagain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:gravity="center"
+            android:text="@string/weuse"
+            android:textSize="@dimen/_12sdp"
+            app:font_type="regular" />-->
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtDone"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/verify_background_shape"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="Done"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+ />
+</RelativeLayout>

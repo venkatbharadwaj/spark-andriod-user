@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Spark</string>
+    <string name="map_key" translatable="false">AIzaSyAbG3uK5suqFpGaD0w9I59gLdiMJBueU3I</string>
+    <string name="login_tx">We need to text you the OTP to\nauthenticate your account</string>
+    <string name="otp_tx">Please enter the 6 digits code\nfrom the SMS sent to your phone</string>
+    <string name="resend_otp">Didn\'t receive SMS? </string>
+    <string name="resend">Resend ></string>
+</resources>

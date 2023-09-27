@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "901173865620",
+    "project_id": "sparkadmin-67547",
+    "storage_bucket": "sparkadmin-67547.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901173865620:android:8086c8a486cb220327d881",
+        "android_client_info": {
+          "package_name": "com.aadyasystemsllc.spark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901173865620-jr3biqq74fq4ihr9uqsr8jougpd8sgcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0fBYt3DS-9pWHflGVaCwLRiuyGMkBvo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901173865620-jr3biqq74fq4ihr9uqsr8jougpd8sgcv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "901173865620-8me9srupp8mdhdolj3r6q6c0p0so6n54.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Spark-Admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901173865620:android:1ad8b3ddd641806427d881",
+        "android_client_info": {
+          "package_name": "com.spark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901173865620-jr3biqq74fq4ihr9uqsr8jougpd8sgcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0fBYt3DS-9pWHflGVaCwLRiuyGMkBvo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901173865620-jr3biqq74fq4ihr9uqsr8jougpd8sgcv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "901173865620-8me9srupp8mdhdolj3r6q6c0p0so6n54.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Spark-Admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901173865620:android:bf7c50aa487a16da27d881",
+        "android_client_info": {
+          "package_name": "com.spark_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901173865620-jr3biqq74fq4ihr9uqsr8jougpd8sgcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0fBYt3DS-9pWHflGVaCwLRiuyGMkBvo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901173865620-jr3biqq74fq4ihr9uqsr8jougpd8sgcv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "901173865620-8me9srupp8mdhdolj3r6q6c0p0so6n54.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Spark-Admin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
